@@ -1,0 +1,106 @@
+[
+    {
+      "fornavn": "Anders",
+      "etternavn": "Ueland",
+      "bekjentskap":"venn"
+    },
+    {
+      "fornavn": "Anders",
+      "etternavn": "Halvorsen",
+      "bekjentskap":"venn"
+      },
+    {
+      "fornavn": "Jan",
+      "etternavn": "Haugen",
+      "bekjentskap":"venn"
+    },
+
+    {
+        "fornavn": "Terje",
+        "etternavn": "Strandkås",
+        "bekjentskap":"venn"
+      },
+
+      {
+        "fornavn": "Odd",
+        "etternavn": "Fjeld",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Steinar",
+        "etternavn": "Fjeld",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Jon",
+        "etternavn": "Johnsen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Jon",
+        "etternavn": "Øygarden",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Heidi",
+        "etternavn": "Kolle",
+        "bekjentskap":"familie"
+      },
+      {
+        "fornavn": "Hannah",
+        "etternavn": "Kolle",
+        "bekjentskap":"familie"
+      },
+      {
+        "fornavn": "Herman",
+        "etternavn": "Kolle",
+        "bekjentskap":"familie"
+      },
+      {
+        "fornavn": "Jan",
+        "etternavn": "Hustvedt",
+        "bekjentskap":"familie"
+      },
+      {
+        "fornavn": "Andreas",
+        "etternavn": "Kolle",
+        "bekjentskap":"familie"
+      },
+      {
+        "fornavn": "Kristian",
+        "etternavn": "Steen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Kristian",
+        "etternavn": "Borgen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Mathias",
+        "etternavn": "Steen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Mathias",
+        "etternavn": "Borgen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Vegar",
+        "etternavn": "Jenssen",
+        "bekjentskap":"venn"
+      },
+      {
+        "fornavn": "Ole",
+        "etternavn": "Dole",
+        "bekjentskap":"ukjent"
+      },
+      {
+        "fornavn": "Johan",
+        "etternavn": "Hulsker",
+        "bekjentskap":"ukjent"
+      }
+
+]
+

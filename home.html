@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <figure id="fig1">
+            <img id="pic" src="./assets/pic.png" alt="">
+        </figure>
+
+        <h1 id="name">Per Håvard K. Hustvedt</h1>
+    
+    </header>
+
+    <div class="container">
+        <main id="bio">
+            <h2>About me</h2>
+            <p> My name i Per Håvard Kolle Hustvedt, and I am twenty-three years old. I am a student at NTNU, and I am taking a one year program in webdesign. Before starting here I took a bachelor's degree in economics at USN.
+
+                I am kind of a restless person, and I need something to keep me busy. Therefore I have lot of hobbies and interests. I have listed a few of my hobbies further down. The reason I wrote those down is that they are the once the take most of my time, and I enjoy the most.</p>
+
+        </main>
+        <section>
+
+            <table id = "friendList">
+
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Acquaintance</th>
+
+            </table>
+
+        </section>
+
+        <section>
+             <form name="quiz" onclick="submitAnswer()">
+
+                <p>What is 3 + 2?</p>
+                 <input type="radio" name="q1" id="q1a" value="a">
+                 <label for="q1">5</label>
+                 <input type="radio" name="q1" id="q1b" value="b">
+                 <label for="q1">6</label>
+                 <input type="radio" name="q1" id="q1c" value="c">
+                 <label for="q1">4</label>
+                 
+                 
+                 <p>What is 5 + 8?</p>
+                 <input type="radio" name="q2" id="q2a" value="a">
+                 <label for="q2">12</label>
+                 <input type="radio" name="q2" id="q2b" value="b">
+                 <label for="q2">13</label>
+                 <input type="radio" name="q2" id="q2c" value="c">
+                 <label for="q2">11</label>
+
+                 <p>What do we call the number 3.14</p>
+                 <input type="radio" name="q3" id="q3a" value="a">
+                 <label for="q3">wi</label>
+                 <input type="radio" name="q3" id="q3b" value="b">
+                 <label for="q3">hi</label>
+                 <input type="radio" name="q3" id="q3c" value="c">
+                 <label for="q3">pi</label>
+
+                 <p>What is coffee?</p>
+                 <input type="radio" name="q4" id="q4a" value="a">
+                 <label for="q4">a drink</label>
+                 <input type="radio" name="q4" id="q4b" value="b">
+                 <label for="q4">food</label>
+                 <input type="radio" name="q4" id="q4c" value="c">
+                 <label for="q4">a car</label>
+
+
+
+                 <p>What is 9 / 3 ?</p>
+                 <input type="radio" name="q5" id="q5a" value="a">
+                 <label for="q5">9</label>
+                 <input type="radio" name="q5" id="q5b" value="b">
+                 <label for="q5">1</label>
+                 <input type="radio" name="q5" id="q5c" value="c">
+                 <label for="q5">3</label>
+
+                 <p>Ready to deliver?</p>
+                 <input type="submit" name="deliver" value="Send it!">
+             </form>
+
+             <div id="score"></div>
+
+             <button id="showAnswers" onclick="fasit()"> Show solution</button>
+             <div id="solution">
+                
+             </div>
+             
+        </section>
+
+
+
+
+        <section>
+
+            <h2> Contact </h2>
+            
+                Your Name
+                <form name="Login" method="post" action="#" onsubmit="UpdateProfile()">
+                
+                <input type="text" name="fName" id="FN"> <br>
+                
+                Age <br>
+                <input type="text" name="ageField" id="age"> <br>
+
+                Email <br>
+                <input type="text" name="email" id="e"><br>
+
+                Number <br>
+                <input type="tet " name="number" id="num">
+
+
+                <input type="submit" name="sub" value="Update">
+
+                </form>
+
+        </section>
+    </div>
+    <footer>
+        Front-end exam
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="quiz.js"></script>
+</body>
+</html>
